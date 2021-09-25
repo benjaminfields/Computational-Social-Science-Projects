@@ -1,0 +1,21 @@
+Last login: Fri Sep 24 23:03:50 on ttys000
+(base) njila@MacBook-Air-de-Benjamin ~ % cd Desktop/GitHub 
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global user.name "benjaminfields"
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global user.email "benjaminfields@berkeley.edu"
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global credential.helper cache
+(base) njila@MacBook-Air-de-Benjamin GitHub % git clone https://github.com/benjaminfields/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) njila@MacBook-Air-de-Benjamin GitHub % cd Computational-Social-Science-Projects
+(base) njila@MacBook-Air-de-Benjamin Computational-Social-Science-Projects % mkdir "Project 1"
+(base) njila@MacBook-Air-de-Benjamin Computational-Social-Science-Projects % touch commands.txt
+(base) njila@MacBook-Air-de-Benjamin Computational-Social-Science-Projects % vim commands.txt
+(base) njila@MacBook-Air-de-Benjamin Computational-Social-Science-Projects % 
+
+git add.
+git commit -m "Assignment"
+git remote add origin <https://github.com/benjaminfields/Computational-Social-Science-Projects.git>
+git push origin master
